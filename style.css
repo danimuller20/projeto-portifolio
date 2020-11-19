@@ -1,5 +1,11 @@
+body {
+  background-color: rgb(232, 249, 250);
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
 /* Para a montagem do menu:
 SOURCE https://tableless.com.br/criando-um-menu-horizontal-com-css/*/
+
 #menu-opcoes ul{
   padding: 10px;
   margin: 0px;
@@ -28,10 +34,6 @@ SOURCE https://tableless.com.br/criando-um-menu-horizontal-com-css/*/
   border-radius: 5px;
 }
 
-body {
-  background-color: rgb(232, 249, 250);
-}
-
 #nome {
   text-align: center;
 }
@@ -45,10 +47,67 @@ body {
 /* Funcionalidade hover:
 SOURCE: http://www.codigoti.com.br/2018/10/css-hover-efeitos-de-transicoes-ao.html */
 #imagem:hover {
-  -webkit-transform: scale(1.5);
+  -webkit-transform: scale(0.5);
   transform: scale(1.5);
 }
 
-#abou-dani {
-  border-style: groove;
+h3 {
+  text-align: center;
+}
+
+#list {
+  width: 45%;
+  border: 2px solid rgb(182, 193, 201);
+  border-bottom: 4PX solid rgb(165, 175, 182);
+  border-radius: 10px;
+  margin-top: 10PX;
+  margin-bottom: 10PX;
+  margin-left: 2px;
+  margin-right: 30%;
+  position: absolute;
+  float: left;
+}
+
+#list2 {
+  width: 45%;
+  border: 2px solid rgb(182, 193, 201);
+  border-bottom: 4PX solid rgb(165, 175, 182);
+  border-radius: 10px;
+  margin-top: 10PX;
+  margin-bottom: 10PX;
+  margin-right: 2px;
+  margin-left: 30%;
+  position: relative;
+  float: right;
+}
+
+#list:hover{
+  background-color:rgb(216, 240, 253);
+  color: black;
+  border-radius: 5px;
+}
+#list2:hover{
+  background-color:rgb(216, 240, 253);
+  color: black;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: rgb(2, 134, 134);
+  clear: both;
+}
+
+.redes-sociais {
+  color: white;
+}
+
+.copy {
+  color: aliceblue;
+  text-decoration: none;
+  text-align: center;
+}
+
+#linkex{
+  display: block;
+  text-align: center;
 }
