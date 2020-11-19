@@ -1,0 +1,54 @@
+/* Para a montagem do menu:
+SOURCE https://tableless.com.br/criando-um-menu-horizontal-com-css/*/
+#menu-opcoes ul{
+  padding: 10px;
+  margin: 0px;
+  background-color: rgb(2, 134, 134);
+  list-style: none;
+  text-align: center;
+}
+
+#menu-opcoes ul li {
+  display: inline;
+}
+
+#menu-opcoes ul li a {
+  padding: 2px 10px;
+  display: inline-block;
+  background-color: rgb(20, 146, 204);
+  color: aliceblue;
+  text-decoration: none;
+  border-bottom: 3px solid rgb(58, 70, 58);
+  border-radius: 5px;
+}
+
+#menu-opcoes ul li a:hover {
+  background-color: rgb(127, 202, 252);
+  color: black;
+  border-radius: 5px;
+}
+
+body {
+  background-color: rgb(232, 249, 250);
+}
+
+#nome {
+  text-align: center;
+}
+
+#imagem {
+  border-radius: 100px;
+  display: block;
+  margin: auto;
+}
+
+/* Funcionalidade hover:
+SOURCE: http://www.codigoti.com.br/2018/10/css-hover-efeitos-de-transicoes-ao.html */
+#imagem:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+#abou-dani {
+  border-style: groove;
+}
