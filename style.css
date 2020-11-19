@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(232, 249, 250);
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+/* Para a montagem do menu:
+SOURCE https://tableless.com.br/criando-um-menu-horizontal-com-css/*/
+
+#menu-opcoes ul{
+  padding: 10px;
+  margin: 0px;
+  background-color: rgb(2, 134, 134);
+  list-style: none;
+  text-align: center;
+}
+
+#menu-opcoes ul li {
+  display: inline;
+}
+
+#menu-opcoes ul li a {
+  padding: 2px 10px;
+  display: inline-block;
+  background-color: rgb(20, 146, 204);
+  color: aliceblue;
+  text-decoration: none;
+  border-bottom: 3px solid rgb(58, 70, 58);
+  border-radius: 5px;
+}
+
+#menu-opcoes ul li a:hover {
+  background-color: rgb(127, 202, 252);
+  color: black;
+  border-radius: 5px;
+}
+
+#nome {
+  text-align: center;
+}
+
+#imagem {
+  border-radius: 100px;
+  display: block;
+  margin: auto;
+}
+
+/* Funcionalidade hover:
+SOURCE: http://www.codigoti.com.br/2018/10/css-hover-efeitos-de-transicoes-ao.html */
+#imagem:hover {
+  -webkit-transform: scale(0.5);
+  transform: scale(1.5);
+}
+
+h3 {
+  text-align: center;
+}
+
+#list {
+  width: 45%;
+  border: 2px solid rgb(182, 193, 201);
+  border-bottom: 4PX solid rgb(165, 175, 182);
+  border-radius: 10px;
+  margin-top: 10PX;
+  margin-bottom: 10PX;
+  margin-left: 2px;
+  margin-right: 30%;
+  position: absolute;
+  float: left;
+}
+
+#list2 {
+  width: 45%;
+  border: 2px solid rgb(182, 193, 201);
+  border-bottom: 4PX solid rgb(165, 175, 182);
+  border-radius: 10px;
+  margin-top: 10PX;
+  margin-bottom: 10PX;
+  margin-right: 2px;
+  margin-left: 30%;
+  position: relative;
+  float: right;
+}
+
+#list:hover{
+  background-color:rgb(216, 240, 253);
+  color: black;
+  border-radius: 5px;
+}
+#list2:hover{
+  background-color:rgb(216, 240, 253);
+  color: black;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: rgb(2, 134, 134);
+  clear: both;
+}
+
+.redes-sociais {
+  color: white;
+}
+
+.copy {
+  color: aliceblue;
+  text-decoration: none;
+  text-align: center;
+}
+
+#linkex{
+  display: block;
+  text-align: center;
+}
