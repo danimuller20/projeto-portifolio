@@ -117,12 +117,8 @@ h3 {
 margin-bottom: 35px;
 }
 
-#list:hover{
-  background-color:  #f7f7f7;
-}
-
-#list2:hover{
-  background-color:  #f7f7f7;
+.impar{
+  background-color: rgb(215, 250, 255);
 }
 
 footer {
