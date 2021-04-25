@@ -5,6 +5,7 @@ import styles from '../styles/app.module.scss';
 import { PlayerContextProvider } from '../contexts/PlayerContext';
 
 //* Componente que aparece em todas as páginas
+
 function MyApp({ Component, pageProps }) {
   return (
     <PlayerContextProvider>
